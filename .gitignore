@@ -1,13 +1,18 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-target/**
+rest/target/**
 
 # dependencies
-.mvn/**
+rest/.mvn/**
 
 # IDEs and editors
-.settings/**
-.classpath
-.project
-/target/
+rest/.settings/**
+rest/.classpath
+rest/.project
+rest/target/
+
+
+# ng_modules
+
+angular/node_modules/*
